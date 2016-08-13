@@ -27,7 +27,7 @@
 
 ## ELK分布式日志系统快速入门实战
 * ELK基本概念部署安装，常用插件实战，ELK使用场景介绍
-* restfulAPI简介，利用restful API实现对ElasticSearch初始化及增删改查
+* RESTful API简介，利用RESTful API实现对ElasticSearch初始化及增删改查
 * 常用ElasticSearch的基本查询，filter查询，组合查询实战
 * ElasticSearch集群管理
 * Logstash配置语法及插件使用
