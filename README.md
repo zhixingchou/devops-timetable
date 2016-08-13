@@ -25,7 +25,7 @@
   * Linux多线程&多进程编程
 * 监控系统搭建代码手把手实战
 
-## ELK分布式日志系统快速入门实战
+## 运维大数据 -- ELK分布式日志系统快速入门实战
 * ELK基本概念部署安装，常用插件实战，ELK使用场景介绍
 * RESTful API简介，利用RESTful API实现对ElasticSearch初始化及增删改查
 * 常用ElasticSearch的基本查询，filter查询，组合查询实战
@@ -34,9 +34,8 @@
 * Logstash常用input输入，filter过滤，output输出配置
 * Kibana4连接索引展示日志，并通过数据分析生产图表
 * 综合实例：ELK收集，分析，展示Nginx日志
-* 分析结果结合graphite对5，4状态聚合出图
 
-## 发布部署系统实战
+## 集群自动部署大咖 -- 巧用开源实现发布部署系统实战
 * 发布流程设计
 * 发布状态管理
 * Ansible API开发与业务场景应用
@@ -60,7 +59,7 @@
 * 找回密码、弱密码检查
 * 企业无线认证（可扩展）
 
-## Docker实战
+## Google最新秘密武器 -- Docker容器云实战
 * Docker原理介绍（AUFS、DeviceMapper、NameSpace、Cgroups）
 * Golang简介（协程、channel）
 * Docker常用操作介绍
@@ -70,9 +69,9 @@
   * SDN（软件定义网络）简介&操作
 * 开源Docker管理系统Rancher介绍&操作
 
-## 分布式系统原理介绍
+## 提高你的逼格 -- 分布式系统核心原理介绍
 * 分布式系统理论介绍
-  * CAP定理及其推导
+  * [CAP定理及其推导](https://zhuanlan.zhihu.com/p/20399316)
   * CAP定理如何指导我们的平时工作
   * BASE 和 ACID
   * 一致性算法简介：Paxos、Raft
@@ -81,7 +80,7 @@
   * Google Chubby分布式锁服务
   * Apache ZooKeeper分布式配置管理
 
-## PaaS实战
+## 云时代的自动化运维 -- PaaS实战
 * AWS（Amazon Web Service）介绍 & 实战
 * 微软Azure介绍 & 实战
 * 如何选用“云”，如何做成本预估和预算
