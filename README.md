@@ -10,17 +10,19 @@
 * Git 开发流程规范（协作开发、commit、分支、Tag）
   * 业界流行的GitFlow开发流程是什么，如何在公司推行？
 
-## 【】企业级服务器监控系统（一）
+## 企业级服务器监控系统（一）
 * 企业级服务器监控系统选型
   * 企业级监控系统面临的挑战
   * 开源企业级监控系统介绍（Zabbix、OpenFalcon）
 * 手把手从零开始构建一个简易的服务器监控系统
 * BAT服务器监控系统架构剖析
 
-## 【实战】企业级服务器监控系统（二）
+## 企业级服务器监控系统（二）
 * 监控系统架构梳理
-* 监控系统高可用考虑
+* 监控系统高可用架构
 * 监控系统网络框架
+  * 高性能网络编程原理
+  * Linux多线程&多进程编程
 * 监控系统搭建代码手把手实战
 
 ## ELK分布式日志系统快速入门实战
@@ -29,22 +31,24 @@
 * 常用ElasticSearch的基本查询，filter查询，组合查询实战
 * ElasticSearch集群管理
 * Logstash配置语法及插件使用
-* Logstash常用input输入，fiter过滤，output输出配置
+* Logstash常用input输入，filter过滤，output输出配置
 * Kibana4连接索引展示日志，并通过数据分析生产图表
-* 综合实例：ELK收集，分析，展示nginx日志
+* 综合实例：ELK收集，分析，展示Nginx日志
 * 分析结果结合graphite对5，4状态聚合出图
 
 ## 发布部署系统实战
 * 发布流程设计
 * 发布状态管理
-* Ansilbe API开发与业务场景应用
-* 代码推送（测试发布、灰度发布、全网发布）
-* 代码回滚
+* Ansible API开发与业务场景应用
+* 用Fabirc进行批量线上操作
+* 上线包推送（测试发布、灰度发布、全网发布）
+* 上线回滚的架构设计
 * 上线记录及版本版本展示
 
 ## 持续集成（CI）&& 持续构建（CB）&& 持续部署（CD）
 * 持续集成系统的意义，如何在公司落地
-  * 近些年各大公司都兴起了CI热，那么CI的好处在哪里，如何在团队推行CI。BAT大神结合公司的经验手把手教大家
+  * 近些年各大公司都兴起了CI热，那么CI的好处在哪里，如何在团队推行CI。
+  * BAT大神结合公司的经验手把手教大家
 * 开源持续集成系统对比选型
 * Jenkins对接Git，对接构建系统
 * Jenkins对接发布发布部署系统
@@ -52,12 +56,13 @@
 
 ## 用户权限平台
 * RBAC权限管理系统
-* 企业级LDAP用户管理（自动化平台、Git、Jenkins、Jira、Confluence打通）
+* 企业级LDAP用户管理（自动化平台、Git、Jenkins、JIRA、Confluence打通）
 * 找回密码、弱密码检查
 * 企业无线认证（可扩展）
 
 ## Docker实战
 * Docker原理介绍（AUFS、DeviceMapper、NameSpace、Cgroups）
+* Golang简介（协程、channel）
 * Docker常用操作介绍
 * Docker镜像制作
 * Docker生态系统介绍（Kubernetes、Mesos、Swarm）
