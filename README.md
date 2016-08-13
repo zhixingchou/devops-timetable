@@ -61,7 +61,7 @@
 
 ## Google最新秘密武器 -- Docker容器云实战
 * Docker原理介绍（AUFS、DeviceMapper、NameSpace、Cgroups）
-* Golang简介（协程、channel）
+* 为分布式编程而生的语言：Golang简介（协程、channel）
 * Docker常用操作介绍
 * Docker镜像制作
 * Docker生态系统介绍（Kubernetes、Mesos、Swarm）
